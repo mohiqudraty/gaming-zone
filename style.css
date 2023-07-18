@@ -1,0 +1,72 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #ff42a5;
+}
+
+/* start nav style  */
+.nav-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+}
+.logo-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+
+  margin-left: 20px;
+}
+.logo-container h3 {
+  font-size: 2.8rem;
+  margin-left: 20px;
+}
+.logo-container h3 > .zone {
+  color: var(--primary-color);
+}
+.nav-items {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+.nav-items > a {
+  text-decoration: none;
+  margin: 0 35px;
+  color: #3c354f;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.nav-items img {
+  width: 24px;
+  height: 24px;
+}
+.follow-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+.follow-btn a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0 12px;
+}
+/* start nav style  */
