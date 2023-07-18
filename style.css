@@ -10,7 +10,10 @@
 :root {
   --primary-color: #ff42a5;
 }
-
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 /* start nav style  */
 .nav-container {
   max-width: 1440px;
@@ -18,7 +21,6 @@
   min-height: 50px;
   display: flex;
   align-items: center;
-  border: 1px solid red;
 }
 .logo-container {
   width: 50%;
@@ -69,4 +71,75 @@
   font-weight: 500;
   margin: 0 12px;
 }
-/* start nav style  */
+/* start banner style  */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 68px;
+  background: rgba(211, 211, 211, 0.144) 70%;
+  margin: 0 20px;
+}
+.banner-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner-title {
+  color: #0b0223;
+  font-size: 2.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-goat-text {
+  font-size: 5.9rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.banner-description {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+.banner-description p {
+  color: #534c64;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.sign-in-btn {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  border: none;
+  margin-top: 40px;
+  margin-right: 25px;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.go-btn {
+  padding: 20px 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: #4ec5f7;
+  margin-top: 40px;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.banner-photos {
+  width: 50%;
+}
+.banner-photos img {
+  width: 100%;
+}
