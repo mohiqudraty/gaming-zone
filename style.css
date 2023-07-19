@@ -204,7 +204,7 @@ body {
   text-align: right;
 }
 .play-title {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 60px;
   margin-bottom: 24px;
@@ -222,7 +222,7 @@ body {
 }
 .play-photos {
   width: 50%;
-  padding: 50px;
+  /* padding: 50px; */
   position: relative;
 }
 .hero {
@@ -234,4 +234,80 @@ body {
   position: absolute;
   width: 50%;
   display: block;
+}
+
+/* category style  */
+
+.category-containe {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.game-categorys {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 12fr);
+  grid-template-rows: repeat(2, 80px);
+  row-gap: 40px;
+  align-content: center;
+}
+.action {
+  grid-column: 1/4;
+}
+.adventure {
+  grid-column: 4/7;
+}
+.arcade {
+  grid-column: 7/10;
+}
+.educational {
+  grid-column: 10/13;
+}
+.word {
+  grid-column: 13/16;
+}
+.role {
+  grid-column: 2/5;
+}
+.musice {
+  grid-column: 5/8;
+}
+.puzzle {
+  grid-column: 8/11;
+}
+.strategy {
+  grid-column: 11/14;
+}
+.game-categorys div {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px;
+  margin: 0 15px;
+  border: none;
+  border-radius: 50px;
+}
+.game-categorys div:hover {
+  border: 2px solid var(--primary-color);
+  /* color: #f948b2; */
+}
+.game-categorys div img {
+  width: 60px;
+}
+.game-categorys div a {
+  text-decoration: none;
+  color: #0b0223;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.game-categorys div a:hover {
+  color: var(--primary-color);
 }

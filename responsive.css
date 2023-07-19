@@ -57,18 +57,67 @@
     align-items: center;
     text-align: center;
   }
+  .play-title {
+    font-size: 2rem;
+  }
   .play-photos {
     width: 100%;
+    margin-top: 30px;
   }
   .hero {
     width: 100%;
     display: block;
   }
   .angel {
-    transform: translate(-100px, -100px);
-    position: absolute;
-    width: 50%;
+    transform: translate(-50px, -120px);
+    /* position: absolute;
+    top: 420px;
+    left: 50px; */
+    width: 40%;
     display: block;
+  }
+  /* game category style here  */
+  .game-categorys {
+    align-content: center;
+    width: 100%;
+  }
+  .game-categorys div {
+    width: 100%;
+    margin: 0 5px;
+  }
+  .game-categorys div img {
+    width: 30px;
+  }
+  .game-categorys div a {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .action {
+    grid-column: 1/5;
+  }
+  .adventure {
+    grid-column: 5/9;
+  }
+  .arcade {
+    grid-column: 9/-1;
+  }
+  .educational {
+    grid-column: 1/5;
+  }
+  .word {
+    grid-column: 5/9;
+  }
+  .role {
+    grid-column: 9/-1;
+  }
+  .musice {
+    grid-column: 1/5;
+  }
+  .puzzle {
+    grid-column: 5/9;
+  }
+  .strategy {
+    grid-column: 9/-1;
   }
 }
 /* tablet responsive */
@@ -104,7 +153,7 @@
   .banner-photos {
     width: 100%;
   }
-
+  /* gaming video style here  */
   .gaming-videos {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -114,20 +163,75 @@
   }
   .play-content {
     width: 100%;
-    align-items: center;
     text-align: center;
+  }
+  .play-title {
+    font-size: 2.5rem;
   }
   .play-photos {
     width: 100%;
+    padding: 50px;
   }
+  /* .hero {
+    width: 100%;
+    display: block;
+  }
+  .angel {
+    transform: translate(-200 px, -200px);
+    position: absolute;
+    width: 40%;
+    display: block;
+  } */
   .hero {
     width: 100%;
     display: block;
   }
   .angel {
-    transform: translate(-100px, -250px);
+    transform: translate(-95px, -200px);
     position: absolute;
-    width: 50%;
+    width: 40%;
     display: block;
+  }
+  /* game category stayle here */
+  .game-categorys {
+    /* grid-template-rows: repeat(3, 80px); */
+    align-content: center;
+    width: 100%;
+  }
+  .game-categorys div {
+  }
+  .game-categorys div img {
+    width: 30px;
+  }
+  .game-categorys div a {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .action {
+    grid-column: 1/5;
+  }
+  .adventure {
+    grid-column: 5/9;
+  }
+  .arcade {
+    grid-column: 9/-1;
+  }
+  .educational {
+    grid-column: 1/5;
+  }
+  .word {
+    grid-column: 5/9;
+  }
+  .role {
+    grid-column: 9/-1;
+  }
+  .musice {
+    grid-column: 1/5;
+  }
+  .puzzle {
+    grid-column: 5/9;
+  }
+  .strategy {
+    grid-column: 9/-1;
   }
 }
